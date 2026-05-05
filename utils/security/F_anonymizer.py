@@ -9,6 +9,5 @@ def anonymize_node(user_msg):
 
 	anonymized_result = anonymizer.anonymize(text=user_msg, analyzer_results=results)
 	safe_text = anonymized_result.text
-	print(safe_text)
 
 	return safe_text
