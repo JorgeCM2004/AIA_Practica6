@@ -4,7 +4,7 @@ import joblib
 
 
 class XGBoost:
-	def __init__(self, seed=None):
+	def __init__(self):
 		self._load_model()
 
 	def predict(self, x):

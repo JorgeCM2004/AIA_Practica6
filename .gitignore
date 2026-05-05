@@ -14,6 +14,7 @@ wheels/
 data/
 chroma_db/
 images/
+temp*
 
 #Memoria
 memoria/
